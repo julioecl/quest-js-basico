@@ -18,13 +18,13 @@ function dividir (num1, num2){
 }
 
 let resultadoSomar = somar(a,b)
-console.log('A soma dos números é:',resultadoSomar)
+console.log('A soma dos números',a,'e', b,'é:',resultadoSomar)
 
 let resultadoSubtrair = subtrair(a,b)
-console.log('A subtração dos números é:',resultadoSubtrair)
+console.log('A subtração dos números',a,'e', b,'é:',resultadoSubtrair)
 
 let resultadoMultiplicar = multiplicar(a,b)
-console.log('A multiplicação dos números é:',resultadoMultiplicar)
+console.log('A multiplicação entre os números',a,'e', b,'é:',resultadoMultiplicar)
 
 let resultadoDividir = dividir(a,b)
-console.log('A divisão dos números é:',resultadoDividir)
+console.log('A divisão entre os números',a,'e', b,'é:',resultadoDividir)
